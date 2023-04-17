@@ -26,3 +26,12 @@ def test_start_and_finish_two_apart_returns_two1():
 
 def test_start_and_finish_two_apart_returns_two1():
     assert cats_and_shelves(24, 26) == 2
+
+def test_start_and_finish_three_apart_returns_one2():
+    assert cats_and_shelves(1, 4) == 1
+
+def test_start_and_finish_three_apart_returns_one1():
+    assert cats_and_shelves(5, 8) == 1
+
+def test_start_and_finish_three_apart_returns_one1():
+    assert cats_and_shelves(24, 27) == 1
