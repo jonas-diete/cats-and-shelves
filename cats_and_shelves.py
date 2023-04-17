@@ -1,2 +1,3 @@
 def cats_and_shelves(start_shelf, finish_shelf):
-    return 0
+    if start_shelf == finish_shelf:
+        return 0
