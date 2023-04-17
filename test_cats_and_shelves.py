@@ -39,8 +39,20 @@ def test_start_and_finish_three_apart_returns_one1():
 def test_start_and_finish_four_apart_returns_two():
     assert cats_and_shelves(1, 5) == 2
 
-def test_start_and_finish_five_apart_returns_two():
+def test_start_and_finish_five_apart_returns_three():
     assert cats_and_shelves(1, 6) == 3
 
 def test_start_and_finish_six_apart_returns_two():
     assert cats_and_shelves(1, 7) == 2
+
+def test_start_and_finish_seven_apart_returns_three():
+    assert cats_and_shelves(1, 8) == 3
+
+def test_start_and_finish_eight_apart_returns_four():
+    assert cats_and_shelves(1, 9) == 4
+
+def test_start_and_finish_nine_apart_returns_three():
+    assert cats_and_shelves(1, 10) == 3
+
+def test_start_and_finish_ten_apart_returns_four():
+    assert cats_and_shelves(1, 11) == 4
